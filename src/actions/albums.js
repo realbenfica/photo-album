@@ -9,3 +9,12 @@ export function addAlbum(id, title) {
     }
   }
 }
+
+export const SET_ALBUM = 'SET_ALBUM'
+
+export function setAlbums(album) {
+  return {
+    type: SET_ALBUM,
+    payload: album
+  }
+}
